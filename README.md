@@ -2,7 +2,7 @@
 
 A simple chatbot made just for fun.
 
-[![Run the App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-template.streamlit.app/)
+[![Talk to Maya](https://img.shields.io/badge/Demo_App-Open-brightgreen?style=for-the-badge&logo=streamlit&logoColor=white)](https://chatbot-template.streamlit.app/)
 
 ### How to run it on your own machine
 
