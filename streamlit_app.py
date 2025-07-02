@@ -70,7 +70,7 @@ st.sidebar.markdown("""
     </p>
     <p style="margin-top: 0.2em; margin-bottom: 0.5em;">
         <a href="https://github.com/ramalpha" target="_blank">
-            <img alt="GitHub Profile" src="https://img.shields.io/badge/GitHub-your_username-blue?logo=github&style=for-the-badge">
+            <img alt="GitHub Profile" src="https://img.shields.io/badge/GitHub-ramalpha-blue?logo=github&style=for-the-badge">
         </a>
     </p>
     <p style="margin-top: 0.2em;">
