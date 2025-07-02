@@ -1,9 +1,5 @@
-# 💬 Maya Simple Chatbot
+# 💬 Diplobot
 
-A simple chatbot made just for fun.
+DIPLO-BOT is a chatbot designed to help users DIPLO-BOT is an interactive chatbot that helps you detect hate speech, explore ASEAN diplomatic issues, and learn how to communicate respectfully online - all through simple, engaging conversations designed to promote smarter and kinder digital diplomacy.
 
-[![Talk to Maya](https://img.shields.io/badge/Talk_to_Maya-Open-brightgreen?style=for-the-badge&logo=streamlit&logoColor=white)](https://chatbot-maya.streamlit.app/)
-
-## Author
-
-- [Ramadya Alif Satya](https://github.com/ramalpha)
+[![Diplobot](https://img.shields.io/badge/Diplobot-Open-brightgreen?style=for-the-badge&logo=streamlit&logoColor=white)](https://diplobot-chatbot.streamlit.app/)

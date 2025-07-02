@@ -35,8 +35,8 @@ def detect_intent_with_text(credentials, project_id, session_id, text, language_
 
 
 # --- Streamlit App Interface ---
-st.title("🤖 Maya Chatbot")
-st.write("I'm live! Deployed from GitHub to Streamlit Community Cloud.")
+st.title("🤖 Diplobot")
+st.write("Your Al Assistant for Ethical Diplomacy in the Digital Age.")
 
 if "session_id" not in st.session_state:
     st.session_state.session_id = str(uuid.uuid4())
@@ -48,7 +48,7 @@ for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
-if prompt := st.chat_input("Talk to Maya..."):
+if prompt := st.chat_input("Ask Me Anything..."):
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
         st.markdown(prompt)
@@ -61,20 +61,3 @@ if prompt := st.chat_input("Talk to Maya..."):
             st.markdown(response)
     
     st.session_state.messages.append({"role": "assistant", "content": response})
-
-# --- Credits ---
-st.sidebar.markdown("""
-<div style="text-align: center; margin-top: 2em; line-height: 1.8;">
-    <p style="margin-bottom: 0.5em;">
-        App by <a href="https://github.com/ramalpha" target="_blank" style="text-decoration: none; color: #0366d6;">Ramadya Alif Satya</a>
-    </p>
-    <p style="margin-top: 0.2em; margin-bottom: 0.5em;">
-        <a href="https://github.com/ramalpha" target="_blank">
-            <img alt="GitHub Profile" src="https://img.shields.io/badge/GitHub-ramalpha-blue?logo=github&style=for-the-badge">
-        </a>
-    </p>
-    <p style="margin-top: 0.2em;">
-        Made with Dialogflow and Streamlit
-    </p>
-</div>
-""", unsafe_allow_html=True)
