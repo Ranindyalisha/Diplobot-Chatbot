@@ -61,3 +61,20 @@ if prompt := st.chat_input("Talk to Maya..."):
             st.markdown(response)
     
     st.session_state.messages.append({"role": "assistant", "content": response})
+
+# --- Credits ---
+st.sidebar.markdown("""
+<div style="text-align: center; margin-top: 2em; line-height: 1.8;">
+    <p style="margin-bottom: 0.5em;">
+        App by <a href="https://github.com/ramalpha" target="_blank" style="text-decoration: none; color: #0366d6;">Ramadya Alif Satya</a>
+    </p>
+    <p style="margin-top: 0.2em; margin-bottom: 0.5em;">
+        <a href="https://github.com/ramalpha" target="_blank">
+            <img alt="GitHub Profile" src="https://img.shields.io/badge/GitHub-your_username-blue?logo=github&style=for-the-badge">
+        </a>
+    </p>
+    <p style="margin-top: 0.2em;">
+        Made with Dialogflow and Streamlit
+    </p>
+</div>
+""", unsafe_allow_html=True)
